@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name = "PayUmoneyCheckoutWebView"
-s.summary = "PayUmoneyCheckoutWebView is library for PayU money"
+s.summary = "PayUmoneyCheckoutWebView for PayUmoney."
 s.requires_arc = true
 
 # 2
@@ -36,7 +36,6 @@ s.source = { :git => "https://github.com/PrateekAwasthi/payUmoney.git", :tag => 
 
 # 7
 s.framework = "UIKit"
-
 
 # 8
 s.source_files = "PayUmoneyCheckoutWebView/**/*.{swift}"
