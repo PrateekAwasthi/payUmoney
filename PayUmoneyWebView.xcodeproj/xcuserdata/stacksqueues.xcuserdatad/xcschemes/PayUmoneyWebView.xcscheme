@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EC9F9341C99547C0018CA68"
-               BuildableName = "PayUmoneyCheckoutWebView.app"
-               BlueprintName = "PayUmoneyCheckoutWebView"
-               ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+               BuildableName = "PayUmoneyWebView.app"
+               BlueprintName = "PayUmoneyWebView"
+               ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EC9F94D1C99547C0018CA68"
-               BuildableName = "PayUmoneyCheckoutWebViewTests.xctest"
-               BlueprintName = "PayUmoneyCheckoutWebViewTests"
-               ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+               BuildableName = "PayUmoneyWebView.xctest"
+               BlueprintName = "PayUmoneyWebViewTests"
+               ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EC9F9581C99547C0018CA68"
-               BuildableName = "PayUmoneyCheckoutWebViewUITests.xctest"
-               BlueprintName = "PayUmoneyCheckoutWebViewUITests"
-               ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+               BuildableName = "PayUmoneyWebView.xctest"
+               BlueprintName = "PayUmoneyWebViewUITests"
+               ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC9F9341C99547C0018CA68"
-            BuildableName = "PayUmoneyCheckoutWebView.app"
-            BlueprintName = "PayUmoneyCheckoutWebView"
-            ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+            BuildableName = "PayUmoneyWebView.app"
+            BlueprintName = "PayUmoneyWebView"
+            ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC9F9341C99547C0018CA68"
-            BuildableName = "PayUmoneyCheckoutWebView.app"
-            BlueprintName = "PayUmoneyCheckoutWebView"
-            ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+            BuildableName = "PayUmoneyWebView.app"
+            BlueprintName = "PayUmoneyWebView"
+            ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC9F9341C99547C0018CA68"
-            BuildableName = "PayUmoneyCheckoutWebView.app"
-            BlueprintName = "PayUmoneyCheckoutWebView"
-            ReferencedContainer = "container:PayUmoneyCheckoutWebView.xcodeproj">
+            BuildableName = "PayUmoneyWebView.app"
+            BlueprintName = "PayUmoneyWebView"
+            ReferencedContainer = "container:PayUmoneyWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

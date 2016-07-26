@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1C8F151CAE734100BA54BE /* PayUWebViewResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C8F141CAE734100BA54BE /* PayUWebViewResponse.m */; };
 		3EC9F93A1C99547C0018CA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F9391C99547C0018CA68 /* main.m */; };
 		3EC9F93D1C99547C0018CA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F93C1C99547C0018CA68 /* AppDelegate.m */; };
-		3EC9F9401C99547C0018CA68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F93F1C99547C0018CA68 /* ViewController.m */; };
-		3EC9F9431C99547C0018CA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F9411C99547C0018CA68 /* Main.storyboard */; };
 		3EC9F9451C99547C0018CA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F9441C99547C0018CA68 /* Assets.xcassets */; };
 		3EC9F9481C99547C0018CA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F9461C99547C0018CA68 /* LaunchScreen.storyboard */; };
 		3EC9F9531C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F9521C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.m */; };
 		3EC9F95E1C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F95D1C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.m */; };
+		3EC9F96E1C9954FA0018CA68 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F96C1C9954FA0018CA68 /* HomeViewController.m */; };
+		3EC9F96F1C9954FA0018CA68 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F96D1C9954FA0018CA68 /* HomeViewController.xib */; };
+		3EC9F9731C9957190018CA68 /* PayUResultWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F9711C9957190018CA68 /* PayUResultWebViewController.m */; };
+		3EC9F9741C9957190018CA68 /* PayUResultWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F9721C9957190018CA68 /* PayUResultWebViewController.xib */; };
+		3EC9F97B1C9ABF6D0018CA68 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9F9771C9ABF6D0018CA68 /* WebViewJavascriptBridge.js.txt */; };
+		3EC9F97C1C9ABF6D0018CA68 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F9781C9ABF6D0018CA68 /* WebViewJavascriptBridge.m */; };
+		3EC9F97D1C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9F97A1C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +41,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3EC9F9351C99547C0018CA68 /* PayUmoneyCheckoutWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUmoneyCheckoutWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1C8F131CAE734100BA54BE /* PayUWebViewResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWebViewResponse.h; sourceTree = "<group>"; };
+		3E1C8F141CAE734100BA54BE /* PayUWebViewResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUWebViewResponse.m; sourceTree = "<group>"; };
+		3EC9F9351C99547C0018CA68 /* PayUmoneyWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUmoneyWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC9F9391C99547C0018CA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EC9F93B1C99547C0018CA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EC9F93C1C99547C0018CA68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EC9F93E1C99547C0018CA68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EC9F93F1C99547C0018CA68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3EC9F9421C99547C0018CA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC9F9441C99547C0018CA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC9F9471C99547C0018CA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC9F9491C99547C0018CA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EC9F94E1C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUmoneyCheckoutWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC9F94E1C99547C0018CA68 /* PayUmoneyWebView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUmoneyWebView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC9F9521C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayUmoneyCheckoutWebViewTests.m; sourceTree = "<group>"; };
 		3EC9F9541C99547C0018CA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EC9F9591C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUmoneyCheckoutWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC9F9591C99547C0018CA68 /* PayUmoneyWebView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUmoneyWebView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC9F95D1C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayUmoneyCheckoutWebViewUITests.m; sourceTree = "<group>"; };
 		3EC9F95F1C99547C0018CA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC9F96B1C9954FA0018CA68 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3EC9F96C1C9954FA0018CA68 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3EC9F96D1C9954FA0018CA68 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		3EC9F9701C9957190018CA68 /* PayUResultWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUResultWebViewController.h; sourceTree = "<group>"; };
+		3EC9F9711C9957190018CA68 /* PayUResultWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUResultWebViewController.m; sourceTree = "<group>"; };
+		3EC9F9721C9957190018CA68 /* PayUResultWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayUResultWebViewController.xib; sourceTree = "<group>"; };
+		3EC9F9761C9ABF6D0018CA68 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		3EC9F9771C9ABF6D0018CA68 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		3EC9F9781C9ABF6D0018CA68 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		3EC9F9791C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		3EC9F97A1C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1C8F121CAE734100BA54BE /* success:failure_URL_Methods */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C8F131CAE734100BA54BE /* PayUWebViewResponse.h */,
+				3E1C8F141CAE734100BA54BE /* PayUWebViewResponse.m */,
+			);
+			path = "success:failure_URL_Methods";
+			sourceTree = "<group>";
+		};
 		3EC9F92C1C99547C0018CA68 = {
 			isa = PBXGroup;
 			children = (
-				3EC9F9371C99547C0018CA68 /* PayUmoneyCheckoutWebView */,
+				3EC9F9371C99547C0018CA68 /* PayUmoneyWebView */,
 				3EC9F9511C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests */,
 				3EC9F95C1C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests */,
 				3EC9F9361C99547C0018CA68 /* Products */,
@@ -91,26 +116,32 @@
 		3EC9F9361C99547C0018CA68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EC9F9351C99547C0018CA68 /* PayUmoneyCheckoutWebView.app */,
-				3EC9F94E1C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.xctest */,
-				3EC9F9591C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.xctest */,
+				3EC9F9351C99547C0018CA68 /* PayUmoneyWebView.app */,
+				3EC9F94E1C99547C0018CA68 /* PayUmoneyWebView.xctest */,
+				3EC9F9591C99547C0018CA68 /* PayUmoneyWebView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EC9F9371C99547C0018CA68 /* PayUmoneyCheckoutWebView */ = {
+		3EC9F9371C99547C0018CA68 /* PayUmoneyWebView */ = {
 			isa = PBXGroup;
 			children = (
 				3EC9F93B1C99547C0018CA68 /* AppDelegate.h */,
 				3EC9F93C1C99547C0018CA68 /* AppDelegate.m */,
-				3EC9F93E1C99547C0018CA68 /* ViewController.h */,
-				3EC9F93F1C99547C0018CA68 /* ViewController.m */,
-				3EC9F9411C99547C0018CA68 /* Main.storyboard */,
+				3EC9F96B1C9954FA0018CA68 /* HomeViewController.h */,
+				3EC9F96C1C9954FA0018CA68 /* HomeViewController.m */,
+				3EC9F96D1C9954FA0018CA68 /* HomeViewController.xib */,
+				3EC9F9701C9957190018CA68 /* PayUResultWebViewController.h */,
+				3EC9F9711C9957190018CA68 /* PayUResultWebViewController.m */,
+				3EC9F9721C9957190018CA68 /* PayUResultWebViewController.xib */,
 				3EC9F9441C99547C0018CA68 /* Assets.xcassets */,
 				3EC9F9461C99547C0018CA68 /* LaunchScreen.storyboard */,
 				3EC9F9491C99547C0018CA68 /* Info.plist */,
+				3E1C8F121CAE734100BA54BE /* success:failure_URL_Methods */,
+				3EC9F9751C9ABF6D0018CA68 /* WebViewJavascript Bridge */,
 				3EC9F9381C99547C0018CA68 /* Supporting Files */,
 			);
+			name = PayUmoneyWebView;
 			path = PayUmoneyCheckoutWebView;
 			sourceTree = "<group>";
 		};
@@ -140,12 +171,24 @@
 			path = PayUmoneyCheckoutWebViewUITests;
 			sourceTree = "<group>";
 		};
+		3EC9F9751C9ABF6D0018CA68 /* WebViewJavascript Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3EC9F9761C9ABF6D0018CA68 /* WebViewJavascriptBridge.h */,
+				3EC9F9771C9ABF6D0018CA68 /* WebViewJavascriptBridge.js.txt */,
+				3EC9F9781C9ABF6D0018CA68 /* WebViewJavascriptBridge.m */,
+				3EC9F9791C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.h */,
+				3EC9F97A1C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.m */,
+			);
+			path = "WebViewJavascript Bridge";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EC9F9341C99547C0018CA68 /* PayUmoneyCheckoutWebView */ = {
+		3EC9F9341C99547C0018CA68 /* PayUmoneyWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EC9F9621C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebView" */;
+			buildConfigurationList = 3EC9F9621C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebView" */;
 			buildPhases = (
 				3EC9F9311C99547C0018CA68 /* Sources */,
 				3EC9F9321C99547C0018CA68 /* Frameworks */,
@@ -155,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = PayUmoneyCheckoutWebView;
+			name = PayUmoneyWebView;
 			productName = PayUmoneyCheckoutWebView;
-			productReference = 3EC9F9351C99547C0018CA68 /* PayUmoneyCheckoutWebView.app */;
+			productReference = 3EC9F9351C99547C0018CA68 /* PayUmoneyWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3EC9F94D1C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests */ = {
+		3EC9F94D1C99547C0018CA68 /* PayUmoneyWebViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EC9F9651C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebViewTests" */;
+			buildConfigurationList = 3EC9F9651C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebViewTests" */;
 			buildPhases = (
 				3EC9F94A1C99547C0018CA68 /* Sources */,
 				3EC9F94B1C99547C0018CA68 /* Frameworks */,
@@ -173,14 +216,14 @@
 			dependencies = (
 				3EC9F9501C99547C0018CA68 /* PBXTargetDependency */,
 			);
-			name = PayUmoneyCheckoutWebViewTests;
+			name = PayUmoneyWebViewTests;
 			productName = PayUmoneyCheckoutWebViewTests;
-			productReference = 3EC9F94E1C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests.xctest */;
+			productReference = 3EC9F94E1C99547C0018CA68 /* PayUmoneyWebView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3EC9F9581C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests */ = {
+		3EC9F9581C99547C0018CA68 /* PayUmoneyWebViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EC9F9681C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebViewUITests" */;
+			buildConfigurationList = 3EC9F9681C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebViewUITests" */;
 			buildPhases = (
 				3EC9F9551C99547C0018CA68 /* Sources */,
 				3EC9F9561C99547C0018CA68 /* Frameworks */,
@@ -191,9 +234,9 @@
 			dependencies = (
 				3EC9F95B1C99547C0018CA68 /* PBXTargetDependency */,
 			);
-			name = PayUmoneyCheckoutWebViewUITests;
+			name = PayUmoneyWebViewUITests;
 			productName = PayUmoneyCheckoutWebViewUITests;
-			productReference = 3EC9F9591C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests.xctest */;
+			productReference = 3EC9F9591C99547C0018CA68 /* PayUmoneyWebView.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3EC9F9301C99547C0018CA68 /* Build configuration list for PBXProject "PayUmoneyCheckoutWebView" */;
+			buildConfigurationList = 3EC9F9301C99547C0018CA68 /* Build configuration list for PBXProject "PayUmoneyWebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +277,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EC9F9341C99547C0018CA68 /* PayUmoneyCheckoutWebView */,
-				3EC9F94D1C99547C0018CA68 /* PayUmoneyCheckoutWebViewTests */,
-				3EC9F9581C99547C0018CA68 /* PayUmoneyCheckoutWebViewUITests */,
+				3EC9F9341C99547C0018CA68 /* PayUmoneyWebView */,
+				3EC9F94D1C99547C0018CA68 /* PayUmoneyWebViewTests */,
+				3EC9F9581C99547C0018CA68 /* PayUmoneyWebViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC9F97B1C9ABF6D0018CA68 /* WebViewJavascriptBridge.js.txt in Resources */,
 				3EC9F9481C99547C0018CA68 /* LaunchScreen.storyboard in Resources */,
 				3EC9F9451C99547C0018CA68 /* Assets.xcassets in Resources */,
-				3EC9F9431C99547C0018CA68 /* Main.storyboard in Resources */,
+				3EC9F96F1C9954FA0018CA68 /* HomeViewController.xib in Resources */,
+				3EC9F9741C9957190018CA68 /* PayUResultWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC9F9401C99547C0018CA68 /* ViewController.m in Sources */,
 				3EC9F93D1C99547C0018CA68 /* AppDelegate.m in Sources */,
 				3EC9F93A1C99547C0018CA68 /* main.m in Sources */,
+				3EC9F96E1C9954FA0018CA68 /* HomeViewController.m in Sources */,
+				3E1C8F151CAE734100BA54BE /* PayUWebViewResponse.m in Sources */,
+				3EC9F9731C9957190018CA68 /* PayUResultWebViewController.m in Sources */,
+				3EC9F97D1C9ABF6D0018CA68 /* WebViewJavascriptBridgeBase.m in Sources */,
+				3EC9F97C1C9ABF6D0018CA68 /* WebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,25 +349,17 @@
 /* Begin PBXTargetDependency section */
 		3EC9F9501C99547C0018CA68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3EC9F9341C99547C0018CA68 /* PayUmoneyCheckoutWebView */;
+			target = 3EC9F9341C99547C0018CA68 /* PayUmoneyWebView */;
 			targetProxy = 3EC9F94F1C99547C0018CA68 /* PBXContainerItemProxy */;
 		};
 		3EC9F95B1C99547C0018CA68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3EC9F9341C99547C0018CA68 /* PayUmoneyCheckoutWebView */;
+			target = 3EC9F9341C99547C0018CA68 /* PayUmoneyWebView */;
 			targetProxy = 3EC9F95A1C99547C0018CA68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3EC9F9411C99547C0018CA68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EC9F9421C99547C0018CA68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3EC9F9461C99547C0018CA68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,9 +456,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayUmoneyCheckoutWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebVieww;
+				PRODUCT_NAME = PayUmoneyWebView;
 			};
 			name = Debug;
 		};
@@ -426,9 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayUmoneyCheckoutWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebVieww;
+				PRODUCT_NAME = PayUmoneyWebView;
 			};
 			name = Release;
 		};
@@ -439,8 +490,8 @@
 				INFOPLIST_FILE = PayUmoneyCheckoutWebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUmoneyCheckoutWebView.app/PayUmoneyCheckoutWebView";
+				PRODUCT_NAME = PayUmoneyWebView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUmoneyWebView.app/PayUmoneyWebView";
 			};
 			name = Debug;
 		};
@@ -451,8 +502,8 @@
 				INFOPLIST_FILE = PayUmoneyCheckoutWebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUmoneyCheckoutWebView.app/PayUmoneyCheckoutWebView";
+				PRODUCT_NAME = PayUmoneyWebView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUmoneyWebView.app/PayUmoneyWebView";
 			};
 			name = Release;
 		};
@@ -462,7 +513,7 @@
 				INFOPLIST_FILE = PayUmoneyCheckoutWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayUmoneyWebView;
 				TEST_TARGET_NAME = PayUmoneyCheckoutWebView;
 				USES_XCTRUNNER = YES;
 			};
@@ -474,7 +525,7 @@
 				INFOPLIST_FILE = PayUmoneyCheckoutWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = payubiz.PayUmoneyCheckoutWebViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayUmoneyWebView;
 				TEST_TARGET_NAME = PayUmoneyCheckoutWebView;
 				USES_XCTRUNNER = YES;
 			};
@@ -483,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EC9F9301C99547C0018CA68 /* Build configuration list for PBXProject "PayUmoneyCheckoutWebView" */ = {
+		3EC9F9301C99547C0018CA68 /* Build configuration list for PBXProject "PayUmoneyWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC9F9601C99547C0018CA68 /* Debug */,
@@ -492,29 +543,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EC9F9621C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebView" */ = {
+		3EC9F9621C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC9F9631C99547C0018CA68 /* Debug */,
 				3EC9F9641C99547C0018CA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3EC9F9651C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebViewTests" */ = {
+		3EC9F9651C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC9F9661C99547C0018CA68 /* Debug */,
 				3EC9F9671C99547C0018CA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3EC9F9681C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyCheckoutWebViewUITests" */ = {
+		3EC9F9681C99547C0018CA68 /* Build configuration list for PBXNativeTarget "PayUmoneyWebViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC9F9691C99547C0018CA68 /* Debug */,
 				3EC9F96A1C99547C0018CA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

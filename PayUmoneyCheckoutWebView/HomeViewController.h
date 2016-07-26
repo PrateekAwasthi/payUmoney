@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  PayUmoneyCheckoutWebView
 //
 //  Created by Ashish Kumar2 on 3/16/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayUResultWebViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface HomeViewController : UIViewController<UITextFieldDelegate>
 
 @end
-
